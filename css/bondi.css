@@ -134,3 +134,79 @@ body{
     max-width: 500px;
 }
 /* End Stuff */
+/* Start Team */
+.team {
+    background-color:var(--section-color)
+}
+.team .box {
+    max-width: 400px;
+    margin: 5px auto;
+}
+.team .box h3 {
+    background-color: var(--green-color);
+    padding: 10px;
+}
+/* End Team */
+/* Start Project */
+.project{
+    background-color: var(--dark-color);
+}
+/* End Project */
+/* Start Blog */
+
+/* End Blog */
+/* Start Subscribe */
+.subscribe {
+    background-color: var(--yellow-color);
+}
+.subscribe .input-sub {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe .input-sub:focus {
+    outline: none;
+}
+.subscribe .input-sub::placeholder {
+    color: white;
+}
+.subscribe input[type="submit"]{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+/* End Subscribe */
+/* Start Footer  */
+.footer {
+    background-color: var(--dark-color);
+}
+.footer .copyright > span {
+    color: var(--green-color);
+}
+.footer .copyright div span {
+    color:var(--yellow-color)
+}
+
+.footer  ul a {
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    transition: 0.3s;
+}
+.footer ul a:hover {
+    color: var(--green-color);
+}
+.footer .sochil ul svg {
+    width: 20px;
+    height: 20px;
+}
+.footer .sochil .twitter {
+    background-color: #1da1f2;
+}
+.footer .sochil .youtube {
+    background-color: #ff0000;
+}
+.footer .sochil .github {
+    background-color: #333;
+}
+.footer .sochil .facebook {
+    background-color: #1877f2;
+}
+/* End Footer  */
